@@ -120,6 +120,16 @@ footer {
     padding: 10px 0;
 }
 
+@media screen and (max-width:768px) {
+    .product {
+        width: calc((100% / 2) - 30px);
+    }
+}
 
+@media screen and (max-width: 480px) {
+    .product {
+        width: 100%;
+    }
+}
 
 
